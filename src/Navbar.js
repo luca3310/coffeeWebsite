@@ -6,12 +6,12 @@ function Navbar() {
   return (
     <>
       <div className="z-40 h-24 bg-black w-full fixed top-0 left-0 flex justify-center	items-center">
-        <div className="w-3/4 flex justify-between items-center">
-          <h1 className="text-white md:text-2xl text-xl font-serif">
+        <div className="w-3/4 flex justify-center items-center">
+          <h1 className="text-white lg:text-2xl md:text-xl text-lg font-serif">
             John's Coffee
           </h1>
 
-          <ul className="text-white flex justify-around w-1/2 text-xl	font-serif	md:visible collapse">
+          <ul className="text-white flex justify-center items-center w-1/2 text-xl	font-serif	md:visible collapse">
             <li className="decoration-orange-700	 hover:underline hover:text-gray-200	underline-offset-4 transition duration-300 ease-in-out">
               <a href="#menu">menu</a>
             </li>
@@ -47,19 +47,28 @@ function Navbar() {
       </div>
       <nav
         id="nav"
-        className={`top-0 right-0 w-screen bg-black  p-10 pl-20 text-white fixed h-full z-30 flex flex-col justify-center items-center transition-all ${
+        className={`top-0 left-0 right-0 w-full bg-black  p-10 pl-20 text-white fixed h-full z-30 flex flex-col justify-center items-center transition-all ${
           showSidebar ? "translate-y-0 " : "translate-y-[-100%]"
         }`}
       >
         <ul className="text-white flex flex-col  justify-center items-center w-1/2 text-xl	font-serif gap-10">
           <li className="">
-            <a href="#menu">menu</a>
+            <a onClick={() => setShowSidebar(!showSidebar)} href="#menu">
+              menu
+            </a>
           </li>
           <li className="">
-            <a href="#address/contact">address/contact</a>
+            <a
+              onClick={() => setShowSidebar(!showSidebar)}
+              href="#address/contact"
+            >
+              address/contact
+            </a>
           </li>
           <li className="">
-            <a href="#about">about</a>
+            <a onClick={() => setShowSidebar(!showSidebar)} href="#about">
+              about
+            </a>
           </li>
         </ul>
       </nav>

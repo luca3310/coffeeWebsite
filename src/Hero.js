@@ -16,12 +16,12 @@ function Hero() {
         }`}
       >
         <img
-          className="w-32 h-auto md-collapse"
+          className="md:w-32 w-20 h-auto md-collapse"
           src="images\tea.png"
           alt="coffe"
         />
-        <h1 className="font-serif text-3xl ">greatest coffee</h1>
-        <p className="w-1/2 font-serif text-base md:text-lg text-center	">
+        <h1 className="font-serif md:text-3xl text-lg">greatest coffee</h1>
+        <p className="w-1/2 font-serif text-sm md:text-base lg:text-lg text-center	">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non
           quis <span className="text-orange-700">484-426-2349 </span>
           exercitationem culpa nesciunt nihil aut nostrum

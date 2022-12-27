@@ -2,7 +2,7 @@ function About() {
   return (
     <section
       id="about"
-      className="relative text-sm md:text-base text-center bg-gradient-to-b from-black to-orange-900 w-screen h-screen flex justify-center "
+      className="relative text-xs md:text-sm lg:text-base text-center bg-gradient-to-b from-black to-orange-900 w-screen h-screen flex justify-center "
     >
       <div className="container flex justify-center gap-20  items-center flex-row">
         <div className="font-serif w-1/4 flex flex-col gap-3">
