@@ -6,12 +6,12 @@ function Navbar() {
   return (
     <>
       <div className="z-40 h-24 bg-black w-full fixed top-0 left-0 flex justify-center	items-center">
-        <div className="w-3/4 flex justify-center items-center">
+        <div className="w-3/4 flex justify-between items-center">
           <h1 className="text-white lg:text-2xl md:text-xl text-lg font-serif">
             John's Coffee
           </h1>
 
-          <ul className="text-white flex justify-center items-center w-1/2 text-xl	font-serif	md:visible collapse">
+          <ul className="text-white flex justify-between items-center w-1/2 text-xl	font-serif	md:visible collapse">
             <li className="decoration-orange-700	 hover:underline hover:text-gray-200	underline-offset-4 transition duration-300 ease-in-out">
               <a href="#menu">menu</a>
             </li>
