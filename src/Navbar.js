@@ -5,7 +5,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="z-40 h-24 bg-black w-full fixed top-0 left-0 flex justify-center	items-center">
+      <div className="z-40 h-24 bg-gradient-to-b from-black w-full fixed top-0 left-0 flex justify-center	items-center">
         <div className="w-3/4 flex justify-between items-center">
           <h1 className="text-white lg:text-2xl md:text-xl text-lg font-serif">
             John's Coffee
