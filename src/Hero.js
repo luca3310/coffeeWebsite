@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function Hero() {
   const [pageLoad, setPageLoad] = useState(false);
-  window.addEventListener("load", () => setPageLoad(!pageLoad));
+  window.onload = () => setPageLoad(!pageLoad);
   return (
     <div className="w-full h-screen relative  bg-gradient-to-b from-orange-900 to-black md:from-black md:to-black flex justify-end">
       <img
