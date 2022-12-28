@@ -12,7 +12,7 @@ function Hero() {
       />
       <div
         className={`absolute text-white inset-x-0 bottom-0 md:w-1/2 h-screen flex justify-center flex-col gap-3 items-center  transition-all duration-1000 ${
-          !pageLoad ? "translate-y-0 opacity-100" : "translate-y-0 opacity-100"
+          !pageLoad ? "translate-y-32 opacity-10" : "translate-y-0 opacity-100"
         }`}
       >
         <img
