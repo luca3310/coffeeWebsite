@@ -4,7 +4,7 @@ function Hero() {
   const [pageLoad, setPageLoad] = useState(false);
   window.onload = () => setPageLoad(!pageLoad);
   return (
-    <div className="w-full h-screen relative  bg-gradient-to-b from-orange-900 to-black md:from-black md:to-black flex justify-end">
+    <div id="hero" className="w-full h-screen relative  bg-gradient-to-b from-orange-900 to-black md:from-black md:to-black flex justify-end">
       <img
         src="images\coffeeHeroImage.jpg"
         alt="coffeimage"
